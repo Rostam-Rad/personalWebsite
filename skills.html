@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glass Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Skills.css" />
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="">Social</a>
+  </div>
+  <button style="opacity:0.7;width:6%;border-radius:2rem;background-color:Transparent;position:absolute;;top:1;cursor:pointer;" onclick="openNav() ">Menu</button>
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "200px";
+    document.getElementById("main").style.marginLeft = "200px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+  </script>
+    <main>
+
+      <section class="glass">
+        <div class="dashboard">
+          <div class="user">
+            <img src="logo.png" alt="" width= 60 height = 60>
+            <h3>Rostam Boroumand Rad</h3>
+            <p>Software Engineer Intern</p>
+          </div>
+          <div class="links">
+            <div class="link">
+              <img src="logo.png" alt="" width= 60 height = 60>
+              <a href="aboutme.html">About Me</a>
+            </div>
+            <div class="link">
+              <img src="logo.png" alt="" width= 60 height = 60>
+              <a href="skills.html">Skills</a>
+            </div>
+            <div class="link">
+              <img src="logo.png" alt="" width= 60 height = 60>
+              <a href="projects.html">Projects</a>
+            </div>
+            <div class="link">
+              <img src="logo.png" alt="" width= 60 height = 60>
+              <a href="">Social</a>
+            </div>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="status">
+            <h1>Search</h1>
+            <input type="text" />
+          </div>
+          <div class="cards">
+            <div class="card">
+              <img src="pythonLogo.png" alt="" width= 60 height = 60>
+              <div class="card-info">
+                <div class = "pythonProgress"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="c++Logo.png" alt="" width= 60 height = 60>
+              <div class="card-info">
+                <div class="cppProgress"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="html5.png" alt="" width= 60 height = 60>
+              <div class="card-info">
+                <div class = "htmlProgress"></div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="css.png" alt="" width= 60 height = 60>
+              <div class="card-info">
+                <div class="cssProgress"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+    <div id="background-wrap">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div class="circle3"></div>
+      <div class="circle4"></div>
+      <div class="circle5"></div>
+      <div class="circle6"></div>
+      <div class="circle7"></div>
+      <div class="circle8"></div>
+      <div class="circle9"></div>
+      <div class="circle10"></div>
+      <div class="circle11"></div>
+      <div class="circle12"></div>
+      <div class="circle13"></div>
+      <div class="circle10"></div>
+  </body>
+</html>
